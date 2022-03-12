@@ -1,26 +1,23 @@
-$(document).ready(function () {
-    $(".img1").click(function () {
+$(document).ready(() => {
+    $(".img1").click(()=> {
         $(".pdesign").toggle();
         $(".design").toggle();
     })
-})
 
-$(document).ready(function () {
-    $(".img2").click(function () {
+    $(".img2").click( ()=> {
         $(".pdev").toggle();
         $(".dev").toggle();
     })
-})
 
-$(document).ready(function () {
-    $(".img3").click(function () {
+    $(".img3").click(()=> {
         $(".pproduct").toggle();
         $(".product").toggle();
     })
-})
+    })
 
-$(document).ready(function () {
-    $("form").submit(function (event) {
+
+$(document).ready(()=> {
+    $("form").submit((event)=> {
         let userName = $("input#name").val();
         let userMail = $("input#email").val();
         let userMessage = $("input#message").val();
