@@ -14,4 +14,5 @@ No known bugs currently.
 ## Contact details
 For more information/clarification concerning the project, kindly reach me through my email bethnduta05@gmail.com
 
-
+### License
+Copyright (c) 2022
