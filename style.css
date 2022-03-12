@@ -1,7 +1,5 @@
 *{
-    box-sizing: border-box;
     text-align: center;
-    font-family:'poppins';
 }
 
 body{
@@ -73,7 +71,9 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.pdesign, .pdev, .pproduct{
+    display: none;
+}
 
 .portfolio{
     display: grid-column;
@@ -101,4 +101,9 @@ body{
     color: #fff;
     height: 50%;
     width: 85%;
+}
+
+.button{
+    width: 100px;
+    margin: 20px;
 }
