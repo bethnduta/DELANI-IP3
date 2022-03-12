@@ -12,3 +12,6 @@ No known bugs currently.
 * [Bootstrap]- it was used to polish up the project to better quality
 * [JAVASCRIPT & JQUERY]- they were used to make the pages more interactive and user-friendly
 ## Contact details
+For more information/clarification concerning the project, kindly reach me through my email bethnduta05@gmail.com
+
+
