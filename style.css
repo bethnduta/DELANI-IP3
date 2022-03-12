@@ -58,10 +58,19 @@ body{
     margin-top: 90px;
 }
 
-.what-we-do img{
-    margin-right: 140px;
-    align-items: center;
-    justify-content: space-between;
+.whatwedo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    cursor: pointer;
+}
+.container-whatwedo h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.whatwedo img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portfolio{
