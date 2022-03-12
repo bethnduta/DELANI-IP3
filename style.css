@@ -130,6 +130,12 @@ body{
     background-image: url(img/c_image.jpg);
     height: 60vh;
     align-items: center;
+    background-size: cover;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     color: #fff;
 }
 
@@ -159,4 +165,14 @@ body{
 .button{
     width: 100px;
     margin: 20px;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-img img{
+     height: 2.5rem;
 }
