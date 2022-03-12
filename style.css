@@ -75,9 +75,53 @@ body{
     display: none;
 }
 
-.portfolio{
-    display: grid-column;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;    
+   
+  }
+  .grid-heading img {      
+    height: 13rem;
+  }
+  .grid-heading h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .portimage{
+    position: relative;    
 }
+.portimage img{
+   opacity: 1; 
+   transition: .9s ease;
+   backface-visibility: hidden;
+}
+.text{
+   transition: .9s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+}
+.portimage img:hover{
+   opacity: 0.3;
+}
+.portimage:hover .text{
+   opacity: 1;
+}
+.text p{
+   background-color: white;
+   color: black;
+   font-size: 16px;
+   padding: 16px 32px;
+   font-weight: 700;
+}
+
 
 .contact-us{
     background-image: url(img/c_image.jpg);
