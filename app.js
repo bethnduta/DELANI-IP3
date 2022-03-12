@@ -7,15 +7,15 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(".img2").click(function () {
-        $(".pdesign").toggle();
-        $(".design").toggle();
+        $(".pdev").toggle();
+        $(".dev").toggle();
     })
 })
 
 $(document).ready(function () {
     $(".img3").click(function () {
-        $(".pdesign").toggle();
-        $(".design").toggle();
+        $(".pproduct").toggle();
+        $(".product").toggle();
     })
 })
 
