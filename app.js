@@ -6,14 +6,14 @@ $(document).ready(function () {
 })
 
 $(document).ready(function () {
-    $(".img1").click(function () {
+    $(".img2").click(function () {
         $(".pdesign").toggle();
         $(".design").toggle();
     })
 })
 
 $(document).ready(function () {
-    $(".img1").click(function () {
+    $(".img3").click(function () {
         $(".pdesign").toggle();
         $(".design").toggle();
     })
