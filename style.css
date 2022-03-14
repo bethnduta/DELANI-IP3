@@ -176,3 +176,39 @@ body{
 .footer-img img{
      height: 2.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+    html, body{
+        overflow-x: hidden !important;
+    }
+    .home{
+       background-position: center;
+       background-size: cover;    
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center; 
+    }
+    .about-us{
+       text-align: center;
+       height: 80vh;
+       margin-top: 10px;
+    }
+    .services{
+        height: 60vh;
+    }
+   .whatwedo{
+       flex-direction: column;
+       padding: 30px;
+       margin: 10px;
+   }
+   .grid-container{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+.contactus{
+   display: flex;
+}
+}
